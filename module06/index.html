@@ -11,12 +11,19 @@
     <p>This is a basic HTML template that includes a picture tag.</p>
 
     <picture>
-
+        
+          <figure>
          <source srcset="image-medium.jpg" media="(max-width: 100px)">
         <img src="images/Chicago_Transit_Authority_Brown_Line_train (5).jpg alt="A description of the image">
+              <figcaption>a little train</figcaption>
+          </figure>
 
-         <source srcset="image-medium.jpg" media="(max-width: 500px)">
-        <img src="images/Chicago_Transit_Authority_Brown_Line_train (3).jpg" alt="A description of
+        <figure>
+            <source srcset="image-medium.jpg" media="(max-width: 500px)">
+        <img src="images/Chicago_Transit_Authority_Brown_Line_train (3).jpg" alt="A description of the image"
+            <figcaption>a bigger train</figcaption>
+            </figure>
+        
             
         <source srcset="image-small.jpg" media="(max-width: 1000px)">
          <img src="images/Chicago_Transit_Authority_Brown_Line_train (1).jpg" alt="A description of the image">
